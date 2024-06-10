@@ -1,6 +1,6 @@
-function or(expression1, expression2) {
+function or(e1, e2) {
   // your code here
-  
+  return !(!e1 && !e2);
 }
 
 let output = or(true, false);
